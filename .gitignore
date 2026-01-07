@@ -5,6 +5,7 @@ build/
 dist/
 wheels/
 *.egg-info
+*.pkl
 
 # Virtual environments
 .venv
@@ -22,7 +23,6 @@ frontend/.vite/
 
 llm-council/
 package-lock.json
-backend/final_response.pkl
-backend/report.pdf
-backend/report_1.pdf
-backend/final_response_1.pkl
+backend/*.pkl
+backend/conv_*.txt
+backend/*.pdf

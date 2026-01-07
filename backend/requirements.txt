@@ -3,3 +3,4 @@ dotenv
 numpy
 matplotlib
 markdown-pdf
+elevenlabs

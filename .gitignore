@@ -24,3 +24,5 @@ llm-council/
 package-lock.json
 backend/final_response.pkl
 backend/report.pdf
+backend/report_1.pdf
+backend/final_response_1.pkl

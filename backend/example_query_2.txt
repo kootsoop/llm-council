@@ -1,0 +1,75 @@
+You are grading an oral exam for "What is Engineering?".
+
+The students are undergraduate engineers at CT State Community College. For most, this was their first engineering course.
+
+The "Pick One" Rule: If the agent asked multiple questions at once and the student only answered one or two, grade them ONLY on what they answered. Do not penalize for missing parts of a compound question.
+
+The "Benefit of Doubt" Rule: If the agent rephrased a question during clarification, credit the student for answering any version of the question presented in that sequence.
+
+Ignore "Stalling": Disregard phrases like "Can you repeat that?" or hesitation. These are valid coping strategies for a poor interface, not signs of ignorance.
+
+Jargon Leniency: Focus on conceptual understanding over perfect industry terminology (e.g., if they describe "churn" correctly but call it "usage drop," accept it).
+
+Grade on these six dimensions (0-5 each; 0=missing, 5=excellent), using evidence from the transcript:
+
+    "What is engineering?"
+    "Engineering and Creativity"
+    "Engineering and Science"
+    "Engineering and Mathematics"
+    "Engineering and Ethics"
+    "How interesting their extras are"
+
+Call Transcript:
+
+Agent: Welcome to the EGR-1-1-1-0 Introduction to Engineering "What is engineering?" assignment. Please say something to continue.
+User: Something to continue.
+Agent: Excellent. Let's begin. Please state your full name and Connecticut State Community College student ID.
+User: Peter, 1234.
+Agent: Thank you, Peter. Just to confirm, is your student ID one, two, three, four?
+User: Yes, that's correct.
+Agent: Alright, Peter. Let's dive into the fascinating world of engineering. In your own words, how would you describe the relationship between engineering and creativity?
+User: So engineering is about
+Agent: ...
+User: meeting constraints and constraints are you need creativity in order to make sure you meet all the constraints.
+Agent: Indeed, Peter. Much like Homer Simpson's quest for the perfect donut, engineers often face numerous constraints. Now, considering those constraints and the creative solutions they demand, what role do ethics play in engineering?
+User: Ethics
+Agent: ...
+User: as an engineer you need to do the right thing by your customer which is needs to be ethical. You need to do the right thing by your peers in your company and you need to do the right thing by society and all of those are usually governed by ethics as well as rules and regulations.
+Agent: A truly comprehensive answer, Peter. It seems you've considered the multi-faceted nature of ethical responsibility in engineering. Now, moving on, how would you articulate the difference between a scientist and an engineer?
+User: A scientist is about measuring and theorizing about the real world at a very basic level, whereas an engineer is about building stuff for other people and using those scientific pieces of information, but it's all about building a product or a service for people.
+Agent: That's a clear distinction, Peter. So, if a scientist is like Professor Frink, observing and theorizing, and an engineer is more like Groundskeeper Willie, building and maintaining, what would you say is the most crucial skill an engineer must possess?
+User: an engineer has to make the conceptual leap from theory to practice
+Agent: The leap from theory to practice, a truly critical skill. Now, considering that leap, what do you believe is the most significant challenge facing engineers today?
+User: A significant challenge is probably keeping up to speed with technology changes.
+Agent: Indeed, the technological landscape shifts faster than a Springfield monorail. Given this rapid pace of change, how do you envision the field of engineering evolving in the next decade?
+User: I think AI is going to have a significant impact, I think quantum computing is going to change the way we do computing and it's going to have a significant impact. They're the two main features that I'd be looking out for.
+Agent: Those are certainly two monumental areas, Peter. It seems you're looking to the future with a keen eye. Now, thinking about the impact of these advancements, how might the role of an engineer change as AI and quantum computing become more prevalent?
+User: I don't think the role changes that much. They just have to I see both quantum computing and AI as a tool to be used and engineers use tools to produce what they're asked to make.
+Agent: An astute observation, Peter. Much like a master chef adapting to new kitchen gadgets, an engineer must wield new tools to create. Now, considering this adaptability, what do you believe is the most important quality for an engineer to possess when collaborating on a team?
+User: The most important quality to possess is the ability to communicate. I think the hardest problems I've ever had have been to do with lack of communication or poor communication.
+Agent: Communication, indeed, is key, Peter. It's the glue that holds a team together, preventing misunderstandings that could lead to a project going as awry as a Kwik-E-Mart hot dog. Now, thinking about effective communication, what strategies would you employ to ensure clear and concise information exchange within an engineering team?
+User: Having
+Agent: ...
+User: regular documentation of what we're doing, using an appropriate tool to keep track of everything, and basically keeping in touch with most members of the team.
+Agent: Excellent points, Peter. Regular documentation and appropriate tools are vital for keeping everyone on the same page, much like a well-organized Duff Beer inventory. Now, let's shift gears slightly. What do you consider to be the most rewarding aspect of being an engineer?
+User: most rewarding aspect is uh
+Agent: ...
+User: ...
+Agent: Please speak up, Peter.
+User: most rewarding aspect is uh showing when things work
+Agent: Ah, the satisfaction of seeing your creation come to life, much like the joy of Marge Simpson finally getting her pretzel business off the ground. Now, on the flip side, what do you find to be the most challenging aspect of engineering?
+User: As I said before, the most challenging aspect is ensuring clear and unequivocal communication between the stakeholders.
+Agent: Indeed, communication can be as tricky as understanding Principal Skinner's cryptic announcements. Now, let's consider the broader impact of engineering. How do you believe engineering contributes to societal well-being?
+User: How do I believe engineering contributes to societal well-being? I think it helps with all sorts of things. I think it helps us
+Agent: ...
+User: ...
+Agent: Please speak up, Peter.
+User: I think it helps ...
+Agent: ...
+User: get around problems, physical problems in the world, more efficiently.
+Agent: Indeed, Peter. Engineering often provides elegant solutions to complex problems, much like a well-designed Krusty Burger. Now, thinking about these solutions, what ethical considerations should engineers prioritize when developing new technologies that could have a significant societal impact?
+User: so if they have a significant societal impact you've got to check that the development is not going to have an adverse effect on society whether that's pollution or danger or impacting the health of people in society after that then you've got to make sure you're being ethical towards your customer and finally you've got to make sure you're ethical towards the people you're working with on your team
+Agent: Those are indeed crucial considerations, Peter. It's about ensuring that our innovations don't inadvertently create a "Canyonero" of problems. Now, considering the rapid pace of technological advancement, how do you think engineers can best prepare for future challenges and opportunities?
+User: Easy. Continuing education is the key.
+Agent: A concise and accurate answer, Peter. Much like Chief Wiggum's unwavering commitment to donuts, an engineer's commitment to continuous learning is paramount. Now, is there anything else you'd like to add about what engineering is?
+User: Just that engineering also includes a process from gathering requirements to architectural design to high-level design to low-level design to implementation and finally testing all of those things as you go back up, ending in verification that you met the requirements and validation that the customer is happy.

@@ -19,6 +19,17 @@ async def run_command_line_query(file_name):
 	return final_response
 
 
+def generate_pdf_report(final_response, output_file="llm_council_report.pdf"):
+	"""
+	Generate a PDF report from the final response.
+	"""
+	pdf = MarkdownPdf(toc_level=2, optimize=True)
+	pdf.add_section(Section(final_response[2]['response']))
+	pdf.meta["title"] = "First cut at report"
+	pdf.meta["author"] = "LLM Council (by Andrej Karpathy, modified by PJK)"
+	pdf.save(output_file)
+
+
 if __name__ == "__main__":
 
 	if os.path.exists("final_response.pkl"):
@@ -42,8 +53,5 @@ if __name__ == "__main__":
 	if final_response:
 		if not os.path.exists("final_response.pkl"):
 			store_in_pickle("final_response.pkl", final_response)
-		pdf = MarkdownPdf(toc_level=2, optimize=True)
-		pdf.add_section(Section(final_response[2]['response']))
-		pdf.meta["title"] = "First cut at report"
-		pdf.meta["author"] = "LLM Council (by Andrej Karpathy, modified by PJK)"
-		pdf.save("report.pdf")
+
+		generate_pdf_report(final_response)

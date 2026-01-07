@@ -6,6 +6,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # OpenRouter API key
+ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY")
+
+# OpenRouter API key
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 # Council members - list of OpenRouter model identifiers

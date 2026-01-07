@@ -1,0 +1,53 @@
+You are grading an oral exam for "What is Engineering?".
+
+The students are undergraduate engineers at CT State Community College. For most, this was their first engineering course.
+
+The "Pick One" Rule: If the agent asked multiple questions at once and the student only answered one or two, grade them ONLY on what they answered. Do not penalize for missing parts of a compound question.
+
+The "Benefit of Doubt" Rule: If the agent rephrased a question during clarification, credit the student for answering any version of the question presented in that sequence.
+
+Ignore "Stalling": Disregard phrases like "Can you repeat that?" or hesitation. These are valid coping strategies for a poor interface, not signs of ignorance.
+
+Jargon Leniency: Focus on conceptual understanding over perfect industry terminology (e.g., if they describe "churn" correctly but call it "usage drop," accept it).
+
+Grade on these six dimensions (0-5 each; 0=missing, 5=excellent), using evidence from the transcript:
+
+    "What is engineering?"
+    "Engineering and Creativity"
+    "Engineering and Science"
+    "Engineering and Mathematics"
+    "Engineering and Ethics"
+    "How interesting their extras are"
+
+
+Call Transcript:
+
+Agent: Welcome to the EGR-1-1-1-0 Introduction to Engineering "What is engineering?" assignment. Please say something to continue.
+User: Something to continue.
+Agent: Excellent. Let's begin. Please state your full name and Connecticut State Community College student ID.
+User: My name is Peter James Katsoukas and my ID is 1234.
+Agent: Thank you, Peter.
+
+Now, tell me in about thirty seconds your answer to the question "What is engineering?".
+User: Engineering is the art of making what you want from stuff you can get.
+Agent: A concise definition, much like a haiku, if a haiku were about building a better mousetrap.
+
+Now, how is engineering related to creativity?
+User: Engineering is related to creativity because
+User: do an engineering project you need to be creative to get around all of the constraints required for the project.
+Agent: Indeed, much like how Homer Simpson gets creative when trying to avoid work.
+
+Now, how is engineering related to science?
+User: Engineering needs to interact with the real world and science is the way we inspect the real world and figure out the laws and physics and chemistry and biology of the real world.
+Agent: A rather eloquent summary, Peter. One might even say you've hit the nail on the head, or perhaps, engineered a perfect response.
+
+Now, for the final question: how is engineering related to mathematics?
+User: In order to quantify things in the real world we need to be able to model the real world using mathematics. So mathematics, whether it's statistics or calculus or simple linear algebra, we need to be able to use that in our engineering process.
+Agent: A truly insightful answer, Peter. You've articulated the essence of mathematics in engineering with the precision of a finely tuned machine.
+
+Now, let's shift gears slightly. What roles do ethics play in engineering?
+User: So one of the things with engineering is it's a profession and it needs to as well as benefit the customer and the company that I'm working for, it also needs to benefit society. And ethics is a way we can guide our application of engineering to the impacts on society.
+Agent: A thoughtful response, Peter. It seems you understand that engineering, much like a good Springfieldian, must consider its impact on the wider community.
+
+Is there anything else you want to tell me about what engineering is?
+User: Only that it's about generating products and services from requirements.

@@ -1,0 +1,5 @@
+httpx
+dotenv
+numpy
+matplotlib
+markdown-pdf

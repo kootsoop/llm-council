@@ -11,8 +11,11 @@ async def run_command_line_query(file_name):
 	"""
 	Run a command line query against the LLM Council.
 	"""
-	with open(file_name, "r") as f:
+	with open("egr1110_grading_prompt.txt", "r") as f:
 		query = f.read()
+
+	with open(file_name, "r") as f:
+		query = query + "\n" + f.read()
 
 	print(f"Running LLM Council for query: {query}")
 	final_response = await run_full_council(query)  # noqa: F704
@@ -32,26 +35,26 @@ def generate_pdf_report(final_response, output_file="llm_council_report.pdf"):
 
 if __name__ == "__main__":
 
-	if os.path.exists("final_response.pkl"):
-		final_response = load_from_pickle("final_response.pkl")
-	else:
-		parser = argparse.ArgumentParser(
-			description="Run command line queries against the LLM Council."
-		)
-		parser.add_argument(
-			"query_file",
-			type=str,
-			help="The query to send to the LLM Council."
-		)
-		args = parser.parse_args()
+	# if os.path.exists("final_response.pkl"):
+	# 	final_response = load_from_pickle("final_response.pkl")
+	# else:
+	parser = argparse.ArgumentParser(
+		description="Run command line queries against the LLM Council."
+	)
+	parser.add_argument(
+		"query_file",
+		type=str,
+		help="The query to send to the LLM Council."
+	)
+	args = parser.parse_args()
 
-		final_response = asyncio.run(run_command_line_query(args.query_file))  # noqa: F704
+	final_response = asyncio.run(run_command_line_query(args.query_file))  # noqa: F704
 
 	print("Final Response from LLM Council:")
 	print(final_response)
 
-	if final_response:
-		if not os.path.exists("final_response.pkl"):
-			store_in_pickle("final_response.pkl", final_response)
+	# if final_response:
+	# 	if not os.path.exists("final_response.pkl"):
+	# 		store_in_pickle("final_response.pkl", final_response)
 
-		generate_pdf_report(final_response)
+	generate_pdf_report(final_response, output_file=f"{args.query_file}.pdf")

@@ -26,3 +26,4 @@ package-lock.json
 backend/*.pkl
 backend/conv_*.txt
 backend/*.pdf
+backend/*.log

@@ -27,3 +27,4 @@ backend/*.pkl
 backend/conv_*.txt
 backend/*.pdf
 backend/*.log
+backend/old_exams/*
